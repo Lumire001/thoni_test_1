@@ -1,0 +1,10 @@
+Beberapa fungsi command line HTML
+
+1. <a></a> -Berfungsi untuk mengubah suatu elemen menjadi hyperlink
+    Ada fungsi href -Berfungsi sebagai refrence link untuk hyperlinknya
+2. <p></p> -Berfungsi sebagai elemen paragraf
+3. <h1,2,..></h1,2,..> -Berfungsi sebagai elemen header
+4. <ul></ul> -Unordered list (list pake bullet)
+5. <ol></ol> -Ordered list (pake angka)
+    <li></li> -isian list
+6. <img src="File Path/source-Name"> -untuk menampilkan gambar

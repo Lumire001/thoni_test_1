@@ -1,9 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
     <head>
         <title>test</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>PPNS</h1>
+        <img src="https://ppns.ac.id/wp-content/uploads/2016/09/logoppns_politeknik_perkapalan-264x300.jpg" alt="Politeknik Perkapalan Negeri Surabaya">
+        <main>
+            <h2>Selamat datang di PPNS</h2>
+            <p>
+                Cobalah buka <strong>LMS</strong> dengan <a href="https://lms.ppns.ac.id" target="_blank">Klik disini</a>
+            </p>
+            <div class="list">
+                <h3>List Jurusan</h3>
+                <ul>
+                    <li>TPK</li>
+                    <li>TPP</li>
+                </ul>
+                <h3>List prodi</h3>
+                <ol>
+                    <li>K3</li>
+                    <li>ME</li>
+                </ol>
+            </div>
+            <form action="/submit-prodi-nama">
+                <label for="K3">
+                    <input id="K3"type="radio" name="prodi" required> K3
+                </label>
+                <label for="ME">
+                    <input id="ME"type="radio" name="prodi" required> ME
+                </label><br>
+                <input type="text" placeholder="Masukan nama" required><br>
+                <button type="submit">Klik</button>
+            </form>
+        </main>
+        <footer>
+            <p>No Copyright - <a href="ppns.co.id">PPNS</a></p>
+        </footer>
     </body>
 </html>
